@@ -100,6 +100,7 @@ main{
   position: relative;
   top: -50px;
   color: #fff;
+  font-size: 1rem;
 }
 
 .attribution a{
@@ -117,5 +118,13 @@ main{
 @media (max-width: 768px) {
   .card:hover{
     transform: scale(1.0);
+  }
+  .attribution{
+    width: 83%;
+    display: block;
+    text-align: center;
+    top: -80px;
+    margin: 0 auto;
+    line-height: 25px;
   }
 }
